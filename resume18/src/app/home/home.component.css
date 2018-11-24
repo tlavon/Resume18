@@ -1,0 +1,13 @@
+.container {
+  background-image: url("/assets/great.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+img.expand {
+  width: 20em;
+  float: right;
+}
