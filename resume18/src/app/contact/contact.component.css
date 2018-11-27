@@ -94,3 +94,40 @@ img.expand {
   width: 100%;
   text-align: center;
 }
+
+/* Media Queries */
+
+@media only screen and (max-device-width : 599px) {
+  .logo {
+    font-size: 60px;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .contact p {
+    font-size: 14px;
+  }
+
+  .contact-logos {
+    right: 1%;
+  }
+}
+
+
+@media only screen and (min-device-width : 600px) {
+  .contact-logos {
+    right: 20%;
+  }
+}
+
+@media only screen and (min-device-width : 900px) {
+  .contact-logos {
+    right: 20%;
+  }
+}
+
+@media only screen and (min-device-width : 1200px) {
+  .contact-logos {
+    right: 30%;
+  }
+}

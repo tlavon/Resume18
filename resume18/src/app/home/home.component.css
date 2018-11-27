@@ -86,3 +86,51 @@ img.expand {
   color: #1F0634;
   transition: ease-in 1s;
 }
+
+/* Media Queries */
+
+@media only screen and (max-device-width : 599px) {
+  .buttons-inline {
+    display: inline-flex;
+    position: absolute;
+    top: 95%;
+    right: 50%;
+    transform: translate(50%, -50%);
+
+  }
+  .button {
+    font-size: 15px;
+    width: 100px;
+  }
+
+  img.expand {
+    margin-right: 80px;
+  }
+
+}
+@media only screen and (min-device-width : 600px) {
+  .buttons-inline {
+    display: inline-flex;
+    position: absolute;
+    top: 95%;
+    right: 50%;
+    transform: translate(50%, -50%);
+  }
+
+  img.expand {
+    margin-right: 80px;
+
+  }
+}
+
+@media only screen and (min-device-width : 900px) {
+  .buttons-inline {
+    top: 90%;
+  }
+}
+
+@media only screen and (min-device-width : 1200px) {
+  .buttons-inline {
+    top: 85%;
+  }
+}
