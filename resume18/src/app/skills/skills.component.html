@@ -1,3 +1,10 @@
-<p>
-  skills works!
-</p>
+<div class="skills">
+  <h1>Skills.</h1>
+  <ul [@listAnimation]="list.length" class="skill-list">
+    <li id="skills" *ngFor="let item of list">{{item}}</li>
+  </ul>
+  <div class="buttons-inline">
+      <a class="button" routerLink='/home'>Home</a>
+      <a class="button" routerLink='/contact'>Contact Me</a>
+  </div>
+</div>

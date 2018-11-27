@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300|Raleway:300');
 
-.skills {
+.contact {
   background-color: #1F0634;
   height: 100vh;
   background-position: center;
@@ -8,48 +8,57 @@
   background-size: cover;
   background-attachment: fixed;
 }
-.skills ul {
-  text-align: justify;
-  list-style-type: none;
-  color: white;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  padding: 10px;
-}
-
-.skills li {
-  /* padding: 10px; */
-  font-size: 30px;
-  font-family: 'Raleway', sans-serif;
-  line-height: 1.6;
-  margin-left: 100px;
-}
-.skills h1 {
+.contact h1 {
   margin: 0;
   color: white;
   text-align: center;
   padding: 20px;
   font-size: 60px;
   font-family: 'Raleway', sans-serif;
-  line-height: 1.7;
-
+  line-height: 1.8;
 }
 
-.skill-list {
-  margin-left: 50px;
+.contact-logos {
+  display: inline-flex;
+  position: absolute;
+  top: 35%;
+  right: 32%;
+}
+
+.contact p {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+.logo {
+  margin: 20px;
+  font-size: 65px;
   background-color: #4B375C;
+  padding: 35px;
   border: 1px solid #4B375C;
-  border-radius: 1%;
-  width: 90%
+  border-radius: 2%;
 }
+
+.logo a {
+  color: #A59BAD;
+}
+
+.logo a:hover {
+  color: white;
+  transition: ease-in .5s;
+}
+
 
 .buttons-inline {
   display: inline-flex;
   padding: 10px;
   position: absolute;
-  top: 80%;
-  right: 82%;
+  top: 70%;
+  right: 50%;
   transform: translate(50%, -50%);
   /* max-width: 90%; */
   background: rgba(31, 6, 52, 0.1);
@@ -73,4 +82,15 @@
   background-color: #A59BAD;
   color: #1F0634;
   transition: ease-in 1s;
+}
+
+img.expand {
+  width: 10em;
+}
+
+.tlavon {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
