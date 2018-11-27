@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    particlesJS.load('particle-js', '/assets/particlesjs-config.json', function(){
+    particlesJS.load('particle-js', './assets/particlesjs-config.json', function(){
       console.log('callback - particles-js config loaded');
     });
 
